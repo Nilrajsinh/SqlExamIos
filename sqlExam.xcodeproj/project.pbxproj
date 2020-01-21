@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		F02B047623D4AE3500780785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B047523D4AE3500780785 /* AppDelegate.swift */; };
 		F02B047823D4AE3500780785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B047723D4AE3500780785 /* SceneDelegate.swift */; };
-		F02B047A23D4AE3500780785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B047923D4AE3500780785 /* ViewController.swift */; };
 		F02B047D23D4AE3500780785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02B047B23D4AE3500780785 /* Main.storyboard */; };
 		F02B048023D4AE3500780785 /* sqlExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F02B047E23D4AE3500780785 /* sqlExam.xcdatamodeld */; };
 		F02B048223D4AE3700780785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02B048123D4AE3700780785 /* Assets.xcassets */; };
 		F02B048523D4AE3700780785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02B048323D4AE3700780785 /* LaunchScreen.storyboard */; };
 		F02B049023D4AE3700780785 /* sqlExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B048F23D4AE3700780785 /* sqlExamTests.swift */; };
 		F02B049B23D4AE3700780785 /* sqlExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B049A23D4AE3700780785 /* sqlExamUITests.swift */; };
+		F02B04AB23D4B0C000780785 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B04AA23D4B0C000780785 /* SignUp.swift */; };
+		F02B04AE23D4B0D700780785 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B04AD23D4B0D700780785 /* Database.swift */; };
+		F02B04B123D4B11E00780785 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F02B04B023D4B11900780785 /* libsqlite3.0.tbd */; };
+		F02B04B723D4B4CF00780785 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B04B623D4B4CF00780785 /* LogIn.swift */; };
+		F02B04BD23D4BA4900780785 /* ViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B04BC23D4BA4900780785 /* ViewPage.swift */; };
+		F05CBF4623D5AAB400C9F47B /* ExamDb.db in Resources */ = {isa = PBXBuildFile; fileRef = F05CBF4523D5AAB400C9F47B /* ExamDb.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		F02B047223D4AE3500780785 /* sqlExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02B047523D4AE3500780785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F02B047723D4AE3500780785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F02B047923D4AE3500780785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F02B047C23D4AE3500780785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F02B047F23D4AE3500780785 /* sqlExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sqlExam.xcdatamodel; sourceTree = "<group>"; };
 		F02B048123D4AE3700780785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,13 @@
 		F02B049623D4AE3700780785 /* sqlExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqlExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02B049A23D4AE3700780785 /* sqlExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqlExamUITests.swift; sourceTree = "<group>"; };
 		F02B049C23D4AE3700780785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02B04AA23D4B0C000780785 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		F02B04AD23D4B0D700780785 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		F02B04B023D4B11900780785 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F02B04B223D4B12E00780785 /* sqlExam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sqlExam-Bridging-Header.h"; sourceTree = "<group>"; };
+		F02B04B623D4B4CF00780785 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		F02B04BC23D4BA4900780785 /* ViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPage.swift; sourceTree = "<group>"; };
+		F05CBF4523D5AAB400C9F47B /* ExamDb.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = ExamDb.db; path = ../../../ExamDb.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02B04B123D4B11E00780785 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,7 @@
 				F02B048E23D4AE3700780785 /* sqlExamTests */,
 				F02B049923D4AE3700780785 /* sqlExamUITests */,
 				F02B047323D4AE3500780785 /* Products */,
+				F02B04AF23D4B11900780785 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +114,18 @@
 		F02B047423D4AE3500780785 /* sqlExam */ = {
 			isa = PBXGroup;
 			children = (
+				F05CBF4523D5AAB400C9F47B /* ExamDb.db */,
+				F02B04AC23D4B0C800780785 /* SqlDb */,
 				F02B047523D4AE3500780785 /* AppDelegate.swift */,
 				F02B047723D4AE3500780785 /* SceneDelegate.swift */,
-				F02B047923D4AE3500780785 /* ViewController.swift */,
 				F02B047B23D4AE3500780785 /* Main.storyboard */,
 				F02B048123D4AE3700780785 /* Assets.xcassets */,
 				F02B048323D4AE3700780785 /* LaunchScreen.storyboard */,
 				F02B048623D4AE3700780785 /* Info.plist */,
 				F02B047E23D4AE3500780785 /* sqlExam.xcdatamodeld */,
+				F02B04AA23D4B0C000780785 /* SignUp.swift */,
+				F02B04B623D4B4CF00780785 /* LogIn.swift */,
+				F02B04BC23D4BA4900780785 /* ViewPage.swift */,
 			);
 			path = sqlExam;
 			sourceTree = "<group>";
@@ -129,6 +146,23 @@
 				F02B049C23D4AE3700780785 /* Info.plist */,
 			);
 			path = sqlExamUITests;
+			sourceTree = "<group>";
+		};
+		F02B04AC23D4B0C800780785 /* SqlDb */ = {
+			isa = PBXGroup;
+			children = (
+				F02B04AD23D4B0D700780785 /* Database.swift */,
+				F02B04B223D4B12E00780785 /* sqlExam-Bridging-Header.h */,
+			);
+			path = SqlDb;
+			sourceTree = "<group>";
+		};
+		F02B04AF23D4B11900780785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F02B04B023D4B11900780785 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +233,7 @@
 				TargetAttributes = {
 					F02B047123D4AE3500780785 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					F02B048A23D4AE3700780785 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -237,6 +272,7 @@
 			files = (
 				F02B048523D4AE3700780785 /* LaunchScreen.storyboard in Resources */,
 				F02B048223D4AE3700780785 /* Assets.xcassets in Resources */,
+				F05CBF4623D5AAB400C9F47B /* ExamDb.db in Resources */,
 				F02B047D23D4AE3500780785 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02B047A23D4AE3500780785 /* ViewController.swift in Sources */,
 				F02B047623D4AE3500780785 /* AppDelegate.swift in Sources */,
+				F02B04BD23D4BA4900780785 /* ViewPage.swift in Sources */,
+				F02B04B723D4B4CF00780785 /* LogIn.swift in Sources */,
+				F02B04AB23D4B0C000780785 /* SignUp.swift in Sources */,
 				F02B047823D4AE3500780785 /* SceneDelegate.swift in Sources */,
+				F02B04AE23D4B0D700780785 /* Database.swift in Sources */,
 				F02B048023D4AE3500780785 /* sqlExam.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7227VAQ96L;
 				INFOPLIST_FILE = sqlExam/Info.plist;
@@ -447,6 +487,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tipsy.com.sqlExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sqlExam/SqlDb/sqlExam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7227VAQ96L;
 				INFOPLIST_FILE = sqlExam/Info.plist;
@@ -465,6 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tipsy.com.sqlExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sqlExam/SqlDb/sqlExam-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
